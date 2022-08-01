@@ -1,0 +1,75 @@
+/*
+Styling the body of the page
+*/
+
+body {
+    background-color: rgb(178, 231, 165);
+    text-align: justify;
+    width: 90%;
+    margin: auto;
+    font-size: 18px;
+}
+
+/*
+Styling the header 1 of the page
+*/
+
+h1 {
+    color: mediumblue;
+    font-size: xx-large;
+    font-size: 50px;
+}
+
+/*
+Styling the header 2 of the page with a different font family
+*/
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/*
+Styling the paragraphs
+*/
+p {
+    color: midnightblue;
+    font-style: oblique;
+}
+
+/*
+If the mouse hovers over the paragraphs - make it standout more
+*/
+p:hover {
+    color: navy;
+    background-color: oldlace;
+}
+
+/*
+If the mouse hovers over the image - its zooms in +25%
+*/
+img:hover {
+    zoom: 125%;
+}
+
+/*
+Create a class for the back to the top button. Also make it fixed the left hand bottom
+*/
+.backToTop {
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    text-align: center;
+    background-color: beige;
+    color: black;
+}
+
+/*
+Create a grid for the first 2 paragraphs to place it next to one another in equal columns. Create a gap of 10px minimum.
+*/
+
+.gridcolumns {
+    display: grid;
+    margin: auto;
+    width: auto;
+    grid-auto-flow: column;
+    gap: 10px;
+}
